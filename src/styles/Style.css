@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100; 
+    font-style: normal; 
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.MainNav {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.NavItem {
+    list-style-type: none;
+}
+
+.NavHome {
+    border-right: 1px #CC3366 solid;
+    width: 100%;
+}
+
+.NavAbout {
+    border-right: 1px #CC3366 solid;
+    width: 100%;
+}
+
+.NavProducts {
+    border-right: 1px #CC3366 solid;
+    width: 100%;
+}
+
+.NavContact {
+    border-right: 1px #CC3366 solid;
+    width: 100%;
+}
+
+.NavFiverr {
+    width: 100%;
+}
+
+.Fat {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 35px;
+    color: #CC3366;
+    font-weight: bolder;
+}
+
+.Skinny {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 35px;
+    color: #CC3366;
+    font-weight: 100;
+}
+
+.Highlights {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.FooterR {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    display: grid;
+    align-items: center;
+}

@@ -1,0 +1,75 @@
+header {
+    background-image: url(../photos/HeaderJoinedImage.jpeg);
+    background-color: #cccccc;
+    height: 375px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1900px; 
+    background-position-y: -168px;
+    position: relative;
+}
+
+.HeaderLogo {
+    background-image: url(../photos/HeaderLogo.png);
+    height: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    position: relative;
+}
+
+.Boards {
+    background-image: url(../photos/leftTop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Calligraphy {
+    background-image: url(../photos/leftBottom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Icons {
+    background-image: url(../photos/middleTop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Grafics {
+    background-image: url(../photos/middleBottom.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Art {
+    background-image: url(../photos/rightTop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.ThreeD {
+    background-image: url(../photos/rightBottom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.FooterL {
+    background-image: url(../photos/smallLogoWhite.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    position: relative;
+}

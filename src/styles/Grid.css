@@ -8,26 +8,71 @@ html, body {
 body {
     display: grid;
     grid-template-columns: 1fr 350px 350px 350px 1fr;
-    grid-template-rows: 100px 100px 100px auto auto auto 200px 25px;
+    grid-template-rows: 125px 125px 125px auto auto auto 200px 25px;
 }
 
 header {
     grid-column: 1 / span 5;
     grid-row: 1 / span 3;
-    background-color: blue;
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 295px 60px 20px;
+}
+
+.HeaderLogo {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 3;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
 
 .MainNav {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    background-color: red;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+ul {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 125px 125px 125px 125px 125px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.NavHome {
+    grid-column: 2 / 1 span;
+    grid-row: 1 ;
+}
+
+.NavAbout {
+    grid-column: 3 / 1 span;
+    grid-row: 1 ;
+}
+
+.NavProducts {
+    grid-column: 4 / 1 span;
+    grid-row: 1 ;
+}
+
+.NavContact {
+    grid-column: 5 / 1 span;
+    grid-row: 1 ;
+}
+
+.NavFiverr {
+    grid-column: 6 / 1 span;
+    grid-row: 1 ;
 }
 
 .Showcase {
@@ -35,7 +80,6 @@ header {
     grid-row: 4 / span 3;
     height: 100%;
     width: 100%;
-    background-color: silver;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 110px 110px 110px 110px 110px 110px;
@@ -44,7 +88,6 @@ header {
 .Boards {
     grid-column: 1 / span 1;
     grid-row: 1 / span 4;
-    background-color: green;
     height: 100%;
     width: 100%;
 }
@@ -52,7 +95,6 @@ header {
 .Calligraphy {
     grid-column: 1 / span 1;
     grid-row: 5 / span 2;
-    background-color: yellow;
     height: 100%;
     width: 100%;
 }
@@ -60,7 +102,6 @@ header {
 .Icons {
     grid-column: 2 / span 1;
     grid-row: 1 / span 3;
-    background-color: gray;
     height: 100%;
     width: 100%;
 }
@@ -68,7 +109,6 @@ header {
 .Grafics {
     grid-column: 2 / span 1;
     grid-row: 4 / span 3;
-    background-color: orange;
     height: 100%;
     width: 100%;
 }
@@ -76,7 +116,6 @@ header {
 .Art {
     grid-column: 3 / span 1;
     grid-row: 1 / span 4;
-    background-color: brown;
     height: 100%;
     width: 100%;
 }
@@ -84,7 +123,6 @@ header {
 .ThreeD {
     grid-column: 3 / span 1;
     grid-row: 5 / span 2;
-    background-color: turquoise;
     height: 100%;
     width: 100%;
 }
@@ -101,24 +139,18 @@ header {
 .HighlightL {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-    background-color: salmon;
-    height: 100%;
     width: 100%;
 }
 
 .HighlightM {
     grid-column: 3 / span 1;
     grid-row: 1 / span 1;
-    background-color: purple;
-    height: 100%;
     width: 100%;
 }
 
 .HighlightR {
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-    background-color: mediumslateblue;
-    height: 100%;
     width: 100%;
 }
 
@@ -127,22 +159,21 @@ Footer {
     grid-row: 8 / span 1;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 350px 350px 350px 1fr;
     grid-template-rows: 1fr;
 }
 
 .FooterL {
-    grid-column: 1 / span 1;
+    grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-    background-color: khaki;
     height: 100%;
     width: 100%;
 }
 
 .FooterR {
-    grid-column: 5 / span 1;
+    grid-column: 4 / span 1;
     grid-row: 1 / span 1;
-    background-color: fuchsia;
+    justify-items: end;
     height: 100%;
     width: 100%;
 }
