@@ -43,12 +43,42 @@ p {
     width: 100%;
 }
 
+.Tint {
+    opacity: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+}
+
+div.BoardsTint:hover {
+    opacity: 1;
+}
+
+.CalligraphyTint:hover {
+    opacity: 1;
+}
+
+.IconsTint:hover {
+    opacity: 1;
+}
+
+.GraficsTint:hover {
+    opacity: 1;
+}
+
+.ArtTint:hover {
+    opacity: 1;
+}
+
+.ThreeDTint:hover {
+    opacity: 1;
+}
+
 .Fat {
     margin: 0;
     padding: 0;
     display: inline;
     font-size: 35px;
-    color: #CC3366;
     font-weight: bolder;
 }
 
@@ -57,14 +87,20 @@ p {
     padding: 0;
     display: inline;
     font-size: 35px;
-    color: #CC3366;
     font-weight: 100;
 }
 
+.TintText {
+    text-decoration: underline;
+}
+
 .Highlights {
-    justify-items: center;
-    align-items: center;
-    text-align: center;
+    background-color: black;
+    color: #CC3366;
+}
+
+Footer {
+    background-color: black;
 }
 
 .FooterR {
